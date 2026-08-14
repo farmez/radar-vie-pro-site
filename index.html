@@ -73,88 +73,110 @@
 
 <main>
   <h1>Politique de confidentialité</h1>
-  <div class="maj">Version du 13 août 2026</div>
+  <div class="maj">Version du 14 août 2026</div>
 
   <p>RADAR VIE PRO est une extension de navigateur qui classe les offres du
   programme V.I.E selon votre CV et prépare vos dossiers de candidature. Cette
   page décrit exactement ce qu'elle fait de vos données.</p>
 
   <div class="cadre">
-    <p><strong>L'essentiel :</strong> tout reste sur votre machine. L'éditeur de
-    l'extension n'héberge aucun service, ne reçoit aucune donnée et n'a accès à
-    rien de ce que vous y mettez.</p>
+    <p><strong>L'essentiel :</strong> le catalogue d'offres ne nous est jamais
+    transmis — il est récupéré et classé sur votre machine. Notre service ne
+    reçoit qu'une seule offre à la fois : celle pour laquelle vous demandez un
+    dossier.</p>
   </div>
 
-  <h2>Qui édite RADAR VIE PRO</h2>
-  <p>RADAR VIE PRO est édité par une personne physique établie en France,
-  joignable à <a href="mailto:meznadfares@gmail.com">meznadfares@gmail.com</a>.</p>
+  <h2>Qui est responsable</h2>
+  <p>Fares MEZNAD, personne physique établie en France, joignable à
+  <a href="mailto:meznadfares@gmail.com">meznadfares@gmail.com</a>.</p>
 
-  <h2>Le catalogue d'offres ne quitte pas votre navigateur</h2>
-  <p>L'extension récupère le catalogue public des offres V.I.E <strong>depuis
-  votre propre navigateur</strong>, et le classe sur votre machine. Il n'est
-  transmis à personne.</p>
-  <p>Les coordonnées des recruteurs éventuellement présentes dans les annonces
-  sont <strong>retirées dès la récupération</strong>, avant tout enregistrement :
-  elles ne sont ni affichées, ni conservées, ni transmises.</p>
-
-  <h2>Ce que l'extension conserve, et où</h2>
-  <p>Dans le stockage local de l'extension, sur votre ordinateur :</p>
+  <h2>Ce que RADAR VIE PRO fait</h2>
+  <p>L'extension récupère le catalogue public des offres du programme V.I.E
+  <strong>dans votre navigateur</strong>, le classe selon votre CV, et prépare sur
+  demande un dossier de candidature pour une offre que vous choisissez.</p>
+  <p>Deux choses en découlent, et elles sont le cœur de cette politique :</p>
   <ul>
-    <li>le catalogue d'offres récupéré et son classement ;</li>
-    <li>votre jeton de session, si vous vous êtes connecté à un service de
-    rédaction ;</li>
-    <li>l'adresse de ce service ;</li>
-    <li>les traductions déjà calculées, pour ne pas les refaire.</li>
+    <li><strong>Le catalogue d'offres ne nous est jamais transmis.</strong> Il est
+    récupéré et classé sur votre machine. Notre service ne reçoit qu'une seule
+    offre à la fois : celle pour laquelle vous demandez un dossier.</li>
+    <li><strong>Les coordonnées des recruteurs présentes dans les annonces sont
+    retirées dès la récupération</strong>, avant tout stockage. Elles ne sont ni
+    affichées, ni conservées, ni transmises.</li>
   </ul>
-  <p>Rien de tout cela n'est synchronisé ni envoyé ailleurs. Désinstaller
-  l'extension efface l'ensemble.</p>
 
-  <h2>Le service de rédaction</h2>
-  <p>La rédaction d'un dossier est faite par un service distinct de l'extension.
-  <strong>À ce jour, l'éditeur n'en héberge aucun</strong> : ce service tourne sur
-  la machine que vous désignez, et c'est vous qui en gardez la maîtrise.</p>
-  <p>Ce service conserve, sur cette machine : votre adresse e-mail, l'empreinte de
-  votre mot de passe — jamais le mot de passe lui-même —, le profil extrait de
-  votre CV, les dossiers générés et le suivi de vos candidatures. Le fichier de
-  votre CV, lui, n'est pas conservé : il est lu une fois, converti en profil, puis
-  oublié.</p>
-  <p>Pour rédiger un dossier, ce service transmet à un modèle de langage
-  <strong>votre profil et la seule offre que vous avez choisie</strong>. Jamais le
-  catalogue, jamais vos autres recherches.</p>
+  <h2>Ce qui reste sur votre machine</h2>
+  <p>Stocké par l'extension, jamais envoyé ailleurs :</p>
+  <ul>
+    <li>le catalogue d'offres récupéré, et son classement ;</li>
+    <li>votre jeton de session ;</li>
+    <li>l'adresse du service que vous utilisez ;</li>
+    <li>les traductions déjà calculées.</li>
+  </ul>
+  <p>Vous les effacez en désinstallant l'extension ou en supprimant votre compte.</p>
 
-  <div class="cadre">
-    <p>Le jour où l'éditeur proposera un service hébergé, cette page sera mise à
-    jour <strong>avant</strong> son ouverture, pour nommer l'hébergeur, le
-    fournisseur du modèle de rédaction et les durées de conservation applicables.</p>
-  </div>
+  <h2>Ce que le service conserve</h2>
+  <p>Pour créer votre compte et rédiger vos dossiers :</p>
+  <table>
+    <tr><th>Donnée</th><th>Pourquoi</th></tr>
+    <tr><td>Adresse e-mail</td><td>identifier le compte, envoyer un lien de réinitialisation</td></tr>
+    <tr><td>Empreinte du mot de passe</td><td>vous authentifier. Le mot de passe lui-même n'est jamais conservé (scrypt)</td></tr>
+    <tr><td>Identifiant Google</td><td>uniquement si vous vous connectez avec Google</td></tr>
+    <tr><td>Profil issu de votre CV</td><td>formation, expériences, outils, langues — c'est la matière des dossiers</td></tr>
+    <tr><td>Dossiers générés</td><td>vous permettre de les retélécharger</td></tr>
+    <tr><td>Suivi de vos candidatures</td><td>la fonction de suivi</td></tr>
+    <tr><td>Trace des paiements</td><td>identifiant de session, montant, date. <strong>Aucune donnée bancaire</strong></td></tr>
+  </table>
+  <p><strong>Le fichier de votre CV n'est pas conservé</strong> : il est lu une
+  fois, converti en profil, puis oublié. C'est le profil, corrigeable par vous,
+  qui subsiste.</p>
+
+  <h2>Combien de temps</h2>
+  <ul>
+    <li><strong>Les dossiers générés</strong> sont supprimés au bout de
+    <strong>30 jours</strong>. La ligne de suivi correspondante est conservée.</li>
+    <li><strong>Le reste</strong> est conservé tant que votre compte existe.</li>
+    <li><strong>Les journaux techniques</strong> du serveur, qui contiennent des
+    adresses IP, sont conservés <strong>30 jours</strong> puis effacés
+    automatiquement.</li>
+  </ul>
+
+  <h2>Qui d'autre voit vos données</h2>
+  <ul>
+    <li><strong>Anthropic</strong> (États-Unis) — pour écrire un dossier, votre
+    profil et l'offre choisie sont transmis à son modèle Claude. Rien d'autre, et
+    jamais le catalogue. Ces données ne servent pas à entraîner le modèle.</li>
+    <li><strong>Oracle Cloud</strong> — le service est hébergé sur ses machines,
+    dans son centre de données de <strong>Paris, France</strong>. Vos données ne
+    quittent donc pas l'Union européenne, hors la transmission ci-dessus.</li>
+    <li><strong>Stripe</strong> — uniquement si vous achetez des crédits. Votre
+    numéro de carte est saisi chez eux et ne transite ni par l'extension ni par
+    notre service.</li>
+    <li><strong>Google</strong> — uniquement si vous choisissez la connexion
+    Google.</li>
+  </ul>
+  <p>Aucun envoi d'e-mail n'est en service à ce jour : les liens de
+  réinitialisation ne sont pas encore expédiés par un prestataire tiers. Cette
+  page sera mise à jour avant que ce soit le cas.</p>
+  <p>Vos données ne sont ni vendues, ni louées, ni utilisées à des fins
+  publicitaires. Elles ne servent à entraîner aucun modèle.</p>
 
   <h2>Vos droits</h2>
-  <p>Depuis l'extension, sans avoir à écrire à quiconque :</p>
-  <table>
-    <tr><th>Droit</th><th>Comment</th></tr>
-    <tr><td>Accès et portabilité</td><td>« Télécharger mes données » exporte tout
-      ce que le service détient sur vous, dans un fichier lisible</td></tr>
-    <tr><td>Rectification</td><td>le profil issu de votre CV est modifiable à tout
-      moment</td></tr>
-    <tr><td>Effacement</td><td>« Supprimer mon compte » efface définitivement le
-      compte, le profil, les dossiers et l'historique</td></tr>
-  </table>
-  <p>Vous disposez par ailleurs des droits d'opposition et de limitation prévus par
-  le RGPD, et du droit d'introduire une réclamation auprès de la CNIL.</p>
-
-  <h2>Ce que nous ne faisons pas</h2>
+  <p>Depuis l'extension, sans nous écrire :</p>
   <ul>
-    <li>aucune donnée n'est vendue, louée ni partagée à des fins publicitaires ;</li>
-    <li>aucune donnée ne sert à entraîner un modèle ;</li>
-    <li>aucun traceur, aucune mesure d'audience, aucune publicité ;</li>
-    <li>l'extension n'accède ni à votre historique, ni à vos onglets, ni aux pages
-    que vous visitez.</li>
+    <li><strong>Exporter toutes vos données</strong> dans un fichier lisible ;</li>
+    <li><strong>Supprimer votre compte</strong> définitivement — profil, dossiers,
+    historique.</li>
   </ul>
+  <p>Vous disposez par ailleurs des droits d'accès, de rectification,
+  d'effacement, d'opposition et de portabilité prévus par le RGPD, et du droit
+  d'introduire une réclamation auprès de la CNIL. Pour les exercer :
+  <a href="mailto:meznadfares@gmail.com">meznadfares@gmail.com</a>.</p>
 
   <h2>Sécurité</h2>
-  <p>Les mots de passe sont conservés sous forme d'empreinte scrypt, les jetons de
-  session sous forme d'empreinte SHA-256. Un lien de réinitialisation voyage dans
-  le fragment de l'adresse, partie qui n'est jamais transmise au serveur.</p>
+  <p>Les échanges avec le service se font en HTTPS. Les mots de passe sont
+  conservés sous forme d'empreinte scrypt, les jetons de session sous forme
+  d'empreinte SHA-256. Un lien de réinitialisation voyage dans le fragment de
+  l'URL, partie qui n'est jamais transmise au serveur.</p>
 
   <h2>Modifications</h2>
   <p>Toute modification sera publiée sur cette page, avec une nouvelle date de
@@ -167,7 +189,7 @@
 </main>
 
 <footer>
-  RADAR VIE PRO — politique de confidentialité — version du 13 août 2026
+  RADAR VIE PRO — politique de confidentialité — version du 14 août 2026
 </footer>
 
 </body>
